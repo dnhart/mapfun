@@ -1,0 +1,216 @@
+
+.headline {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+0,2ab0ed+26,9fd8ef+49,bfe8f9+61,e4f5fc+80,ffffff+93 */
+background: rgb(0,0,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(42,176,237,1) 26%, rgba(159,216,239,1) 49%, rgba(191,232,249,1) 61%, rgba(228,245,252,1) 80%, rgba(255,255,255,1) 93%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,1) 0%,rgba(42,176,237,1) 26%,rgba(159,216,239,1) 49%,rgba(191,232,249,1) 61%,rgba(228,245,252,1) 80%,rgba(255,255,255,1) 93%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,1) 0%,rgba(42,176,237,1) 26%,rgba(159,216,239,1) 49%,rgba(191,232,249,1) 61%,rgba(228,245,252,1) 80%,rgba(255,255,255,1) 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	padding: 10px;
+}
+
+.panel-default {
+    border: none;
+}
+
+
+.panel-default>.panel-heading {
+    color: #efefef;
+    background-color: #222222;
+    border-color: #ddd;
+}
+
+.nogeo{
+	display: none;
+}
+
+.nocity {
+	display: none;
+}
+
+#map{
+	height: 400px;
+		margin: auto;
+	margin-top: 5px;
+	padding: 5px;
+	background-color: #eaeaea;
+	outline: solid black 1px;
+}
+
+#mapForm {
+		padding-top: 5px;
+	/*outline: solid black 1px;
+	margin: auto;
+	margin-top: 5px;
+
+	padding: 5px;
+	background-color: #eaeaea;*/
+}
+
+#news-panel-title, #weather-panel-title {
+	text-transform:capitalize;
+}
+
+.list-group-item-text {
+	margin-left: 15px;
+	
+}
+
+.btn-default:focus,
+.btn-default:active,
+.btn-default:hover{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+
+#trafficButton:active, 
+{
+    color: #efefef;
+    background-color: #26a1d8;
+    border-color: #26a1d8;
+}
+
+
+.buttonOn {
+    font-weight: bold;
+    color: #26a1d8;
+    background-color: #fff;
+    border-color: #26a1d8;
+}
+
+div.row {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 1px;
+}
+
+
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+body {
+    margin-top: 0px;
+	
+	font-family: 'Proza Libre', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-fixed-top{
+	position: relative;
+	 z-index: 0;
+}
+
+
+.btn-group-vertical {
+	 width: 100%;
+}
+
+
+footer {
+	text-align: center;
+}
+
+
+.caret {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 800px){
+
+body {
+    margin-top: 50px;
+}
+
+.navbar-fixed-top
+{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+#mapContainer{
+	margin: 0;
+}
+/*
+#mapForm {
+margin-top: 0;
+margin-bottom: 0;
+margin-right: 0;
+
+}*/
+.btn-default:hover {
+    color: #efefef;
+    background-color: #26a1d8;
+    border-color: #26a1d8;
+}
+.btn-default:focus,
+{
+    font-weight: bold;
+    color: #26a1d8;
+    background-color: #fff;
+    border-color: #26a1d8;
+}
+
+	.collapse {
+  display: table;
+}
+	.panel-body:before,
+	.panel-body:after {
+	  display: table;
+	 
+	}
+
+	#accordion > .panel >.panel-heading > .panel-title > a{
+		 pointer-events: none;
+   cursor: default;
+	}
+
+
+	.panel {
+		  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;	
+    float: left;
+     width: 50%;
+ 
+	}
+
+
+.btn-group-vertical {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+.btn-group-vertical > .btn,
+.btn-group-vertical > .btn-group {
+  display: table-cell;
+  float: none;
+  width: 1%;
+}
+.btn-group-vertical > .btn-group .btn {
+  width: 100%;
+}
+.btn-group-vertical > .btn-group .dropdown-menu {
+  left: auto;
+}
+
+
+.caret {
+  display: none;
+}
+
+
+.panel-group .panel+.panel {
+	    margin-top: 0;
+}
+}
