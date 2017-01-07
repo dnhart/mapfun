@@ -114,6 +114,9 @@ div.row {
 	 z-index: 0;
 }
 
+.panel-collapse.collapse{
+	width: 100%;
+}
 
 .btn-group-vertical {
 	 width: 100%;
