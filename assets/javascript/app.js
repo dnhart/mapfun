@@ -363,6 +363,12 @@ var weatherQuery = "https://api.wunderground.com/api/61929af079ddbd78/geolookup/
          var windSpeed = "Wind Speed: "+ weather.current_observation.wind_string;
           var windChill = "Wind Chill: "+ weather.current_observation.windchill_f+" &#8457;";
         var weatherIcon =  weather.current_observation.icon_url;
+
+weatherIcon = weatherIcon.replace("http", "https");
+
+
+
+
         var description = "Current Weather: "+ weather.current_observation.weather+"<img src='"+weatherIcon+"' />";
 
 // console.log(temp);
