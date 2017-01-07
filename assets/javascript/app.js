@@ -343,8 +343,12 @@ function getWeather(city){
   // Add City name to the News pannel Title
   $("#weather-panel-title").html("Local Weather for " + city+"  <span class='caret'></span>");
 
-var weatherQuery = "http://api.wunderground.com/api/61929af079ddbd78/geolookup/conditions/q/IA/"+city+".json";
-  weatherQuery = weatherQuery.replace(/\s+/g, '+');
+
+
+
+var weatherQuery = "https://api.wunderground.com/api/61929af079ddbd78/geolookup/conditions/q/"+lat+","+lng+".json";
+  //weatherQuery = weatherQuery.replace(/\s+/g, '+');
+     console.log(weatherQuery);
  // var weatherQuery = "http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lng+"&appid=f84bde1340d8fb2ecf8f1802eedc0991&units=imperial";
   $.ajax({url: weatherQuery, method: "GET"}) 
     .done(function(result) {
